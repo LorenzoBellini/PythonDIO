@@ -1,0 +1,3 @@
+A identação do código tem função de deixar o código mais limpo e legível
+Em Python a identação exerce um segundo papel, através dela o interpretador consegue determinar aonde um bloco começa e aonde termina
+Em JAVA e C por exemplo, a identação não é necessária, pode-se fazer o código sem a formatação

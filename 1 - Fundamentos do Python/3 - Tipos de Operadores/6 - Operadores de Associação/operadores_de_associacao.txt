@@ -1,0 +1,1 @@
+Operadores de Associação são utilizados para verificar se um objeto está presente em uma sequencia

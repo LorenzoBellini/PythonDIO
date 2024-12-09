@@ -1,0 +1,9 @@
+Convertendo Tipos
+
+-----
+    
+Em alguns momentos é necessário converter o tipo de uma variável para manipular de forma diferente, por ex: Variáveis do tipo string, que armazenam números e precisamos fazer alguma
+operação amtemática com esse valor
+
+-----
+

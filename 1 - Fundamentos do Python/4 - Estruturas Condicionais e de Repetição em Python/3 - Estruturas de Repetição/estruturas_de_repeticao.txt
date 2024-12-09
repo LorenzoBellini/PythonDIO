@@ -1,0 +1,13 @@
+Estruturas de repetição utilizadas para repetir um trecho de código um número determinado de vezes
+Esse número pode ser definido previamente ou através de uma expressão lógica
+
+Comando for:
+    Utilizado para percorrer um objeto iterável
+    Melhor utilizado quando sabemos o número exato de vezes que nosso bloco de código deve ser executado
+
+Função range:
+    É uma função built-in do Python, utilizada para produzir uma sequencia de número inteiros a partir de um início para um fim
+
+Comando while:
+    É utilizado para epetir um bloco de código várias vezes
+    Melhor utilizado quando não sabemos quantas vezes nosso bloco de código deverá ser executado

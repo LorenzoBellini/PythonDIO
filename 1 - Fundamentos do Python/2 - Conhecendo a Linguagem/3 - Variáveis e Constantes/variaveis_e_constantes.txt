@@ -1,0 +1,33 @@
+-----
+
+Variáveis
+    Em linguagens de programação podemos definir valores que podem sofrer alterações ao longo da execução do programa. Chamamos esses valores de Variáveis, pois eles nascem com um valor, mas não necessariamente vão
+    ter o mesmo valor durante a execução do programa.
+
+-----
+
+Alteração de Valores
+    Não é necessário definir o tipo de dado da variável em Python, pois o mesmo já o faz automaticamente. Por isso não podemos criar uma variável sem atribuir um valor. Para alterar o valor da variável basta fazer
+    uma atribuição de um novo valor.
+
+-----
+
+Constantes 
+    Assim como as variáveis, constantes são utilizadas para armazenar valores. Uma constante nasce com um valor e permanece com ele até o final da execução do programa, ou seja, o valor é imutável.
+
+-----
+
+Python NÃO TEM Constantes 
+    Não existe uma palavra reservada para informar ao interpretador que o valoe é constante. Em algumas linguagens como JAVA e C utilizamos 'final' e 'const' respectivamente para declarar uma constante.
+    Em Python usamos a convenção que diz ao programador que a variável é uma constante.
+    Para fazer isso, deve-se criar a variável com o nome todo em letras maiúsculas.
+
+-----
+
+Boas Práticas 
+    - Padrão de nomes sempre ser snake case (caso nome tiver mais de uma palavra, utilizar underline);
+    - Utilizar nomes sujestivos;
+    - Nome de constantes sempre ser inteiro em letras maiúsculas.
+
+-----
+

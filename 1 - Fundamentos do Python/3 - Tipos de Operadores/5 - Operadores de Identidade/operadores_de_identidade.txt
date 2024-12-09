@@ -1,0 +1,1 @@
+Operadores de Identidade são utilizados para comparar se dois objetos testados ocupam a mesma posição na memória

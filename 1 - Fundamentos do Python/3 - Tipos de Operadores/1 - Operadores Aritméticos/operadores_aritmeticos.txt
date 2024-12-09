@@ -1,0 +1,10 @@
+Operadores Aritméticos executam operações matemáticas, como adição, subtração, divisão, etc.
+
+Na matemática existe uma regra que indica quais operações devem ser executadas primeiro. Isso é útil pois ao analisar uma expressão, a depender da ordem das operações o valor pode
+ser diferente
+
+A definição indica a seguinte ordem como correta
+    1 - Parênteses
+    2 - Expoêntes
+    3 - Multiplicações e Divisões (da esquerda para a direita)
+    4 - Somas e Subtrações (da esquerda para a direita)

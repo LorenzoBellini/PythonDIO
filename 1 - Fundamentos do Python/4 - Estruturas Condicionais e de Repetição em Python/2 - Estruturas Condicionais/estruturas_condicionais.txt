@@ -1,0 +1,21 @@
+Estruturas condicionais permitem o desvio de fluxo de controle, quando determinadas expressões lógicas são atendidas
+
+Alguns exemplos:
+
+    If
+        - Estrutura condicional simples, um único desvio
+
+    If-Else
+        - Estrutura condicional com dois desvios
+    
+    Elif
+        - Quando se quer uma estrutura com mais de dois desvios, é utilizado elif 
+
+    If Aninhado
+        - Estruturas condicionais aninhadas, ou seja, estruturas if/elif/else dentro de um bloco de código de estruturas if/elif/else
+
+    If Ternário
+        - If Ternário permite escrever uma condição em uma única linha. É composto por 3 partes:
+            1: Retorno caso expressão retorne verdadeiro
+            2: Expressão lógica
+            3: Retorno caso expressão não seja atendida 

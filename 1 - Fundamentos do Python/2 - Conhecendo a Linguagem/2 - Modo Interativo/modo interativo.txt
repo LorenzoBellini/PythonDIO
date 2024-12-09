@@ -1,0 +1,25 @@
+Para acessar o modo interativo: 
+
+Terminal -> Novo Terminal -> 'python'. Pronto, para sair "exit()"
+ou
+Terminal -> Novo Terminal -> 'python -i [nome do arquivo que quer executar]'.
+
+------
+
+DIR
+    Função dir sem argumentos retorna a lista de nomes no escopo local atual
+        dir()
+    
+    Função dir com um argumento, retorna uma lista de atributos válidos para o objeto
+        dir(100)
+
+------
+
+HELP
+    Função help invoca o sistema de ajuda integrado. É possível fazer buscas em modo interativo ou informar por parâmetro qual o nome do módulo, função, classe, método ou variável
+    EX:
+        help()
+        help(100)
+
+------
+
