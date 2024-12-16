@@ -1,0 +1,2 @@
+A classe String do Python é rica em métodos e possui interface fácil de trabalhar
+Em algumas linguagens manipular sequências de caracteres não é um trabalho trivial, porém, em Python esse trabalho é muito simples

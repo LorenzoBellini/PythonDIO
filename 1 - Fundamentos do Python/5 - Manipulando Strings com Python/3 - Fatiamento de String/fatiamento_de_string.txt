@@ -1,0 +1,1 @@
+Fatiamento de strings é uma técnica utilizada para retornar substrings (Partes da string original), informando o inicio (start), fim (stop) e passo (step): [start, stop, [step]]

@@ -1,0 +1,4 @@
+Existem 3 formas de interpolar variáveis em string utilizando Python
+    Utilizando o sinal %
+    Utilizando o método format
+    Utilizando f strings
