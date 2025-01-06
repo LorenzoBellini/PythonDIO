@@ -1,0 +1,73 @@
+Criando Listas:
+    -> Listas em Python podem armazenar de maneira sequencial qualquer tipo de objeto
+    -> O construtor "list" é utilizado para criar listas, a função "range" ou colocando valores separados por vírgulas dentro de colchetes
+    -> Listas são objetos mutáveis, ou seja, podemos alterar seus valores após sua criação
+
+Acesso Direto:
+    -> A lista é uma sequência, logo, podemos acessar seus dados utilizando índices
+    -> Contamos o índice de determinada sequência a partir do zero
+
+Índices Negativos:
+    -> Sequências suportam indexação negativa. Contagem começa em -1
+
+Listas Aninhadas:
+    -> Listas podem armazenar todos os tipos de objetos Python
+    -> Podemos ter listas que armazenam  outras listas, possibilitando a criação de estruturas bidimensionjais (Tabelas), e acessar informando índices de linha e coluna
+
+Fatiamento:
+    -> Além do acesso direto de elementos, é possível extrair um conjunto de valores de uma sequência
+    -> Para isso, é necessário passar o índice inicial e/ou final para acessar o conjunto
+    -> Também é possível informar quantas posições o cursosr deve "pular" no acesso
+
+Iterar Listas:
+    -> A forma mais comum para percorrrer os dados de uma lista é utilizando o comando "for"
+
+Função Enumerate:
+    -> Às vezes é necessário saber qual o índice do objeto dentro do laço "for", então é utilizada a função "enumerate"
+
+Compreensão de Listas:
+    -> A compreensão de lista oferece uma sintaxe mais curta quando você deseja: cirar uma nova lista com base nos valores de uma lista existente (filtro)
+    -> Ou gerar uma nova lista aplicando algums modificação nos elementos de uma lista existente
+
+Também existem métodos da classe list, alguns deles são:
+    -> [].append
+        - Adiciona novos valores à lista
+
+    -> [].clear
+        - Limpa a lista de todos os valores
+
+    -> [].copy
+        - Copia a lista original, mas caso haja alguma modificação, não irá alterar a lista original
+
+    -> [].count
+        - Vai ccontar quantas vezes um determinado objeto aparece na lista
+
+    -> [].extend
+        - É como um append, mas pode adicionar mais de um valor por vez
+
+    -> [].index
+        - Mostra em qual posição fica a primeira ocorrência do objeto desejado
+
+    -> [].pop
+        - Retira o último elemento da lista quando não se passa nenhuma especificação (Funciona na metodologia de pilha, Last In First Out)
+        - Caso tenha especificação de índice, remove o índice em questão
+
+    -> [].remove
+        - Remove um objeto da lista
+        - É necessário passar o objeto em si que deseja remover
+
+    -> [].reverse
+        - Inverte as posições dos objetos (similar ao [::-1])
+
+    -> [].sort
+        - Organiza a lista de uma maneira específica
+            - sort() = organiza em ordem alfabética
+            - sort(reverse=True) = organiza ao contrário da ordem alfabética 
+            - sort(key=lambda x: len(x)) = organiza por tamanho de objeto de maneira crescente
+            - sort(key=lambda x: len(x), reverse=True) = organiza por tamanho de objeto de maneira decrescente
+
+    -> len
+        - Mostra o tamanho da lista (quantidade de elementos que ela possui)
+
+    -> sorted
+        - Serve para ordenar as listas assim como o método sort, a diferença é que sorted é uma função
