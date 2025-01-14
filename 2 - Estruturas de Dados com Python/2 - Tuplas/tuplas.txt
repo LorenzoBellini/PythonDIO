@@ -1,0 +1,38 @@
+Criação de Tuplas:
+    Tuplas são estruturas de dados muito parecidas com as listas, a diferença principal é que Tuplas são imutáveis enquanto as listas são mutáveis
+    Podem ser criadas através da classe tuple, ou colocando valores separados por vírgulas e parênteses
+
+Acesso Direto:
+    A tupla é uma sequencia, portanto podemos acessar seus dados utilizando índices
+    Contamos o índice de determinada sequência a partir do zero
+
+Índices Negativos:
+    Sequências suportam indexação negativa
+    A contagem começa em -1
+
+Tuplas Aninhadas:
+    Tuplas podem armazenar todos os tipos de objetos Python, então podemos ter Tuplas que armazenam outras Tuplas
+    Portanto, podemos criar estruturas bidimencionais (tabelas), e acessar informando os índices de linha e coluna
+
+Fatiamento 
+    Além de acessar elementos diretamente, podemos extrair um conjunto de valores de uma sequência
+    Para isso basta passar o índice  inicial e/ou final para acessar o conjunto
+    Podemos ainda informar quantas posições o cursor deve "pular" no acesso
+
+Iterar Tuplas:
+    A forma mais comum para percorrer os dados de uma tupla é utilizando o comando for
+
+Função enumerate:
+    Às vezes é necessário saber qual o índice do objeto dentro do laço for
+    Para isso podemos usar a função enumerate
+
+Métodos da classe tuple:
+    
+    - ().count
+        -> Conta quanto de cada elemento tem na Tupla 
+
+    - ().index
+        -> Mostra qual posição determinado objeto ocupa na tupla
+
+    - len
+        -> Tira o tamanho total da tupla
