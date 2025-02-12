@@ -1,0 +1,31 @@
+Criando sets
+  Sets são coleções que não possuem objetos repetidos
+  São utilizados para representar conjuntos matemáticos ou eliminar itens duplicados de um item iterável
+
+Acessando os Dados
+  Conjuntos em Python não suportam indexação e nem fatiamento
+  Para acessar os valores é necessário converter o conjunto para lista
+
+Iterar conjuntos
+  A forma mais comum para percorrer os dados de um conjunto é utilizando o comando for
+
+Função enumerate
+  Algumas vezes é necessário saber qual o índice do objeto dentro do laço for 
+  Para isso utilizamos a função enumerate
+
+Métodos da classe set 
+  {}.union = Vai unir conjuntos
+  {}.intersection = Vai retornar apenas os objetos que estão em ambos os conjuntos
+  {}.difference = Vai retornar os objetos diferentes entre os dois conjuntos, deixando de fora os que são iguais
+  {}.symmetric_difference = Vai retornar em uma função só todos os elementos que não estão na intersecção (difference aplicado em apenas uma linha de código)
+  {}.issubset = Se um conjunto é subconjunto de outro ele retornará Verdadeiro, senão retornará Falso
+  {}.issuperset = É o contrário do issubset
+  {}.isdisjoint = Conjuntos totalmente alheios, sem nenhum item estar em dois conjuntos ao mesmo tempo
+  {}.add = Adiciona novos elementos ao conjunto, se o elemento já existir ele não será adicionado
+  {}.clear = Vai limpar o set
+  {}.copy = Vai copiar o set
+  {}.discard = Descarta um valor
+  {}.pop = Tira os valores da lista em ordem, do menor para o maior
+  {}.remove = Remove um elemento específico, se o elemento não existe, ele da erro
+  len = Fala o tamanho do conjunto
+  in = Utilizado para verificar se um objeto está dentro do conjunto
