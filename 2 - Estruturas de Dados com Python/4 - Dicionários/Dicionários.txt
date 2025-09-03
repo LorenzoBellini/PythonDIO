@@ -1,0 +1,10 @@
+Dicionários são conjuntos não ordenados de pares chave:valor, onde chaves são únicas em uma dada instancia no Dicionário,
+são delimitados por chaves: {}, e contém lista de pares chave:valor separadas por vírgulas
+
+
+Dicionários Aninhados:
+Dicionários podem armazenar qualquer tipo de objeto Python como valor, desde que a chave para
+esse valor seja um tipo imutável (string, número ou tupla).
+
+Iterando Dicionários:
+A forma mais comum de percorrer os dados de um dicionário é utilizando o comando "for"
