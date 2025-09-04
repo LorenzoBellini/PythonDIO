@@ -8,3 +8,27 @@ Programar baseado em funções é sinônimo de programar de maneira estruturada
 Para retornar um valor, utilizamos a palavra reservada return
 Toda função Python retorna None por padrão
 Diferente de outras linguagens, uma função em Python pode retornar mais de um valor
+
+Funções também podem ser chamadas usando argumentos nomeados da forma chave=valor
+
+É possível combinar parâmetros obrigatórios com args e kwargs
+Quando eles são definidos (*args e **kwargs), o método recebe os valores como tupla e dicionário respectivamente
+
+Por padrão, argumentos podem ser passados para uma função Python tanto por posição quanto pelo nome.
+Para uma legibilidade e desempenho melhores, faz sentido restringir a maneira que os argumentos são passados
+Assim um desenvolvedor precisa olhar apenas para a definição da cunção para determinar se os itens são passados por:
+Posição
+Posição e nome
+ou
+Nome
+
+
+Em Python tudo é objeto, sendo assim, funções também são objetos, o que as tornam objetos de primeira classe
+Podemos atribuir funções a variáveis, passá-las como parâmetro para funções, usá-las como valores em estruturas de dados (como listas, tuplas, dicionários, etc), 
+e  usar como valor de retorno para uma função (closures)
+
+
+Python trabalha com escopo global e local, dentro do bloco da função o escopo é local
+Então alterações feitas ali em objetos imutáveis vão ser perdidas quando o método terminar de ser executado.
+Para uso de objetos globais, usamos a palavra-chave global, que informa ao interpretador que a variável que está sendo manipulada no escopo local é global
+PORÉM, esta NÃO É uma boa prática e deve ser evitada
